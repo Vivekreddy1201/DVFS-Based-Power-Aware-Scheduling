@@ -1,12 +1,12 @@
 DVFS-Based Power-Aware Scheduling in Cloud Computing
-📖 Overview
+ Overview
 
 This project implements a DVFS-based power-aware scheduling simulation for cloud computing environments.
 The goal is to reduce energy consumption in cloud datacenters while maintaining task execution efficiency and SLA compliance.
 
 The simulation dynamically adjusts CPU frequency using Dynamic Voltage and Frequency Scaling (DVFS) based on VM utilization and predicted workload. It also performs VM consolidation by transitioning underutilized virtual machines into a sleep state and reactivating them when needed.
 
-⚙️ Key Features
+ Key Features
 
 Workload Prediction (Low / Medium / High)
 
@@ -22,7 +22,7 @@ Simplified SLA Compliance Check
 
 Simulation Summary with Energy Savings
 
-🧠 Scheduling Strategy
+ Scheduling Strategy
 
 CPU frequency is adjusted dynamically:
 
@@ -38,7 +38,7 @@ Sleeping VMs are reactivated when task demand increases
 
 Energy usage is compared against a baseline (fixed frequency) model
 
-🛠️ Technologies Used
+ Technologies Used
 
 Language: C
 
@@ -54,20 +54,20 @@ VM Consolidation
 
 Energy Efficiency
 
-📂 Project Structure
+ Project Structure
 DVFS-Based-Power-Aware-Scheduling/
 │
 ├── dvfs_scheduler.c      # Main simulation code
 ├── README.md             # Project documentation
 
-▶️ How to Compile and Run
+ How to Compile and Run
 Compile
 gcc dvfs_scheduler.c -o dvfs_scheduler
 
 Run
 ./dvfs_scheduler
 
-📊 Sample Output
+ Sample Output
 
 Predicted workload level
 
@@ -81,11 +81,11 @@ VM consolidation events
 
 Final energy savings summary
 
-📈 Results
+ Results
 
 The simulation demonstrates that DVFS-based scheduling combined with VM consolidation can significantly reduce energy consumption compared to a baseline fixed-frequency approach, while still maintaining task execution feasibility.
 
-🚀 Future Enhancements
+ Future Enhancements
 
 Integration with real cloud simulators (e.g., CloudSim)
 
@@ -95,7 +95,7 @@ More accurate SLA and power models
 
 Multi-datacenter support
 
-👤 Author
+ Author
 
 M. Vivek Reddy
 B.Tech – Computer Science and Engineering
